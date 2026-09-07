@@ -2,7 +2,6 @@
 
 Proyek **Computer Vision** untuk klasifikasi citra kondisi penuaan kulit wajah (*facial skin ageing*) ke dalam 5 kelas menggunakan **Convolutional Neural Network (CNN)** yang dibangun dari nol (from scratch) dengan TensorFlow/Keras. Model kemudian diekspor ke berbagai format (`.keras`, `.h5`, SavedModel, TensorFlow Lite, dan TensorFlow.js) agar bisa digunakan di Python, aplikasi mobile, maupun aplikasi web.
 
-> **Catatan pembaruan:** README ini disusun ulang berdasarkan isi aktual `code.ipynb`. Judul notebook menyebut "Menggunakan Model MobileNetv2", namun arsitektur yang benar-benar diimplementasikan dan dilatih pada notebook adalah **CNN custom (Sequential)** — bukan transfer learning MobileNetV2. `MobileNet` memang di-*import* di notebook tetapi tidak dipakai untuk membangun model final. Selain itu, file `requirements.txt` dan `code_convert_model_to_tfjs.ipynb` yang disebutkan pada versi README sebelumnya **tidak ditemukan** di repository — proses konversi ke TensorFlow.js dan TensorFlow Lite sebenarnya sudah dilakukan langsung di dalam `code.ipynb` (bagian 6 & 7).
 
 ## Daftar Isi
 
